@@ -16,7 +16,7 @@ public class DoubleExercises {
         Initialize two doubles radius and height for a cylinder.
         Calculate and print the volume of the cylinder (use Math.PI for π).*/
 
-    public void volumeOfCylinderCalc(Double paramHeight, Double paramRadius){
+    public void volumeOfCylinderCalc(double paramHeight, double paramRadius){
         double volume = Math.PI * (paramHeight * paramRadius) * paramHeight;
         System.out.println("The volume of the Cylinder is: " + volume);
     }
@@ -26,7 +26,7 @@ public class DoubleExercises {
         Initialize a double Fahrenheit with any value. Convert this to Celsius and print the result.
         C = (°F - 32) × 5/9*/
 
-    public void fahrenheitToC (Double paramFahrenheit){
+    public void fahrenheitToC (double paramFahrenheit){
         double celsius = (paramFahrenheit -32 ) * 5 / 9;
         System.out.println(paramFahrenheit + " Fahrenheits = " + celsius + " C");
 

@@ -20,12 +20,12 @@ public class Student {
 
     public String Nume;
     public String Prenume;
-    public Integer Varsta;
+    public int Varsta;
     public String Adresa;
-    public Double Inaltime;
-    public Float Greutate;
-    public Character Sex;
-    public Boolean AreDiploma;
+    public double Inaltime;
+    public float Greutate;
+    public char Sex;
+    public boolean AreDiploma;
 
 
 
@@ -53,13 +53,21 @@ public class Student {
         System.out.println("Are studentul diploma? " + AreDiploma);
 
         calculMedie();
+        getSallary();
+        System.out.println(getSallary());
     }
 
     public void calculMedie(){
-        Integer notaUnu = 8;
-        Integer notaDoi = 9;
-        Integer notaTrei = 4;
-        Integer medie = (notaUnu + notaDoi + notaTrei) / 3;
+        int notaUnu = 8;
+        int notaDoi = 9;
+        int notaTrei = 4;
+        int medie = (notaUnu + notaDoi + notaTrei) / 3;
         System.out.println("Nota studentului este: " + medie);
+    }
+
+    //metoda return
+    public int getSallary () {
+        int sallary = 5000;
+        return sallary;
     }
 }

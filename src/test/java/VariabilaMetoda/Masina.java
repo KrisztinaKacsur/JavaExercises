@@ -6,7 +6,7 @@ public class Masina {
 
     public String marca;
     public String model;
-    public Integer anFabricatie;
+    public int anFabricatie;
 
     @Test
     public void metodaTest (){
@@ -17,7 +17,7 @@ public class Masina {
     }
 
 
-    public void dateMasina (String param1, String param2, Integer param3){
+    public void dateMasina (String param1, String param2, int param3){
         marca = param1;
         model = param2;
         anFabricatie = param3;
