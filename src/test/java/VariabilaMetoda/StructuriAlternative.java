@@ -18,6 +18,8 @@ public class StructuriAlternative {
     oddOrEven(3);
     oddOrEven(-1);
     oddOrEven(-8);
+
+    daysOfTheWeek(3);
     }
 
     //verificam un numar mai mare decat 5
@@ -59,6 +61,30 @@ public class StructuriAlternative {
             System.out.println("Numarul introdus este 0");
         }
 
+    }
+
+    //exemplu switch-case
+    //if-else -> se parcurge fiecare if, merge din if in if. Switch-case sare direct la cazul indicat de input;
+    public void daysOfTheWeek(int day){
+        switch (day){
+            case 1:
+                System.out.println("Today is Monday");
+                break;
+            case 2:
+                System.out.println("Today is Tuesday");
+                break;
+            case 3:
+                System.out.println("Today is Wednesday");
+                break;
+            case 4:
+                System.out.println("Today is Thursday");
+                break;
+            case 5:
+                System.out.println("Today is Friday");
+                break;
+            default:
+                System.out.println("No more days to display. Start the week from the beginning :P");
+        }
     }
 
 
