@@ -3,6 +3,8 @@ package VariabilaMetoda;
 import com.google.errorprone.annotations.Var;
 import org.testng.annotations.Test;
 
+import java.util.Scanner;
+
 public class Student {
 
     //clasa = sablon care defineste proprietatile si comportamentul unei antitati specifice
