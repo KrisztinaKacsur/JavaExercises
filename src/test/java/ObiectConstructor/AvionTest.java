@@ -18,5 +18,7 @@ public class AvionTest {
         Avion thirdAvion = new Avion("Pasageri", "Boeing", "C450", 400,
                 "EcoPlus", 800);
         thirdAvion.prezentareAvion();
+
+        //Am creat un branch local nou: mainCopy
     }
 }
